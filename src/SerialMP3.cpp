@@ -165,7 +165,6 @@ void SerialMP3::sendCommand(uint8_t command, uint8_t data1, uint8_t data2) {
     Serial.print("Send: ");
     Serial.println(send_mp3); // Watch what are we sending
   }
-  delay(500); // Wait between sending commands.
 }
 
 String SerialMP3::decodeMP3Answer() {
